@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="614.0" style="-fx-background-color: TRANSPARENT;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="75.0" prefWidth="559.0" style="-fx-background-color: #7cb342;" AnchorPane.bottomAnchor="422.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutY="-23.0" prefHeight="83.0" prefWidth="559.0" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="60.0" fitWidth="76.0" onMouseClicked="#botonAsesor" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/asesor.png" />
+                     </image>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="60.0" fitWidth="76.0" onMouseClicked="#botonUbicacion" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/ubicacion.png" />
+                     </image>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="56.0" fitWidth="58.0" onMouseClicked="#botonEducacion" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Resume.png" />
+                     </image>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="54.0" fitWidth="61.0" onMouseClicked="#botonGuardados" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/personas.png" />
+                     </image>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+                  <ImageView fitHeight="60.0" fitWidth="76.0" onMouseClicked="#botonSalir" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/puerta.png" />
+                     </image>
+                  </ImageView>
+                  <Separator prefWidth="200.0" visible="false" />
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panelGuardados" layoutX="-4.0" layoutY="123.0" prefHeight="378.0" prefWidth="620.0" style="-fx-background-color: #7cb342;">
+         <children>
+            <Label layoutX="27.0" layoutY="57.0" text="Nombre:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="100.0" text="Apellido:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="148.0" text="Identificacion:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="81.0" layoutY="14.0" text="CLIENTES GUARDADOS" textFill="WHITE" />
+            <Label layoutX="379.0" layoutY="14.0" text="ASESORES GUARDADOS" textFill="WHITE" />
+            <Separator layoutX="311.0" layoutY="40.0" orientation="VERTICAL" prefHeight="298.0" prefWidth="2.0" />
+            <Label layoutX="335.0" layoutY="60.0" text="Nombre:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="103.0" text="Apellido:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="333.0" layoutY="151.0" text="Identificacion:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="214.0" text="Nombre:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="257.0" text="Apellido:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="305.0" text="Identificacion:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="337.0" layoutY="217.0" text="Nombre:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="334.0" layoutY="260.0" text="Apellido:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="332.0" layoutY="308.0" text="Identificacion:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Separator layoutX="93.0" layoutY="188.0" prefHeight="3.0" prefWidth="446.0" />
+            <Label fx:id="nombreCliente1" layoutX="128.0" layoutY="58.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="apellidoCliente1" layoutX="127.0" layoutY="102.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="identificacionCliente1" layoutX="127.0" layoutY="149.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="nombreAsesor1" layoutX="432.0" layoutY="61.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="apellidoAsesor1" layoutX="432.0" layoutY="104.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="identificacionAsesor1" layoutX="432.0" layoutY="152.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="nombreCliente2" layoutX="125.0" layoutY="214.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="apellidoCliente2" layoutX="125.0" layoutY="259.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="identificacionCliente2" layoutX="125.0" layoutY="306.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="nombreAsesor2" layoutX="432.0" layoutY="218.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="apellidoAsesor2" layoutX="432.0" layoutY="261.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+            <Label fx:id="identificacionAsesor2" layoutX="432.0" layoutY="306.0" prefHeight="18.0" prefWidth="174.0" style="-fx-background-color: #b6dbc7;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panelEducacion" layoutX="52.0" layoutY="113.0" prefHeight="392.0" prefWidth="508.0" style="-fx-background-color: #7cb342;" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="113.0">
+         <children>
+            <Label layoutX="239.0" layoutY="22.0" text="RANGO EJECUTIVO" textFill="WHITE" />
+            <JFXToggleButton layoutX="137.0" layoutY="162.0" onAction="#toggleEstudiante" text="Estudiante" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXToggleButton>
+            <Separator layoutX="75.0" layoutY="29.0" prefHeight="3.0" prefWidth="102.0" />
+            <JFXTextField fx:id="AreaPerteneciente" disable="true" layoutX="349.0" layoutY="109.0" prefHeight="25.0" prefWidth="161.0" promptText="Área de ventas" />
+            <Label layoutX="111.0" layoutY="112.0" text="Nivel" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="SeleccionNivel" layoutX="164.0" layoutY="109.0" onAction="#cambiarNivel" prefHeight="25.0" prefWidth="150.0" promptText="Seleccionar" style="-fx-background-color: #ffffff;" />
+            <Separator layoutX="58.0" layoutY="231.0" prefHeight="3.0" prefWidth="488.0" />
+            <JFXTextField fx:id="carreraEstudiando" disable="true" layoutX="302.0" layoutY="175.0" prefHeight="25.0" prefWidth="161.0" promptText="Carrera que estudia" />
+            <JFXButton layoutX="250.0" layoutY="287.0" onAction="#botonGuardar" style="-fx-background-color: #ffffff;" text="Guardar" textFill="#2819ff">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <Separator layoutX="378.0" layoutY="30.0" prefHeight="3.0" prefWidth="102.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panelUbicacion" layoutX="76.0" layoutY="113.0" prefHeight="392.0" prefWidth="351.0" style="-fx-background-color: #7cb432;" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="113.0">
+         <children>
+            <Label layoutX="229.0" layoutY="21.0" text="DATOS DE UBICACIÓN" textFill="WHITE" />
+            <Separator layoutX="396.0" layoutY="30.0" prefHeight="3.0" prefWidth="102.0" />
+            <Label layoutX="175.0" layoutY="98.0" text="País:" textFill="WHITE" />
+            <Label layoutX="122.0" layoutY="141.0" text="Departamento:" textFill="WHITE" />
+            <JFXComboBox fx:id="SeleccionPais" layoutX="275.0" layoutY="94.0" onAction="#cambiarPaises" prefHeight="25.0" prefWidth="150.0" promptText="Seleccionar" style="-fx-background-color: #ffffff;" />
+            <JFXComboBox fx:id="SeleccionDepartamento" disable="true" layoutX="275.0" layoutY="137.0" onAction="#cambiarCiudades" prefHeight="25.0" prefWidth="150.0" promptText="Seleccionar" style="-fx-background-color: #ffffff;" />
+            <Label layoutX="229.0" layoutY="236.0" text="DATOS DE CONTACTO" textFill="WHITE" />
+            <Separator layoutX="67.0" layoutY="243.0" prefHeight="3.0" prefWidth="115.0" />
+            <Label layoutX="135.0" layoutY="287.0" text="Dirección:" textFill="WHITE" />
+            <JFXTextField fx:id="campoDireccion" layoutX="333.0" layoutY="279.0" promptText="Escriba su direccion" />
+            <Label layoutX="137.0" layoutY="328.0" text="Teléfono:" textFill="WHITE" />
+            <JFXTextField fx:id="campoTelefono" layoutX="335.0" layoutY="316.0" promptText="Sólo números" />
+            <Separator layoutX="390.0" layoutY="243.0" prefHeight="3.0" prefWidth="115.0" />
+            <Separator layoutX="83.0" layoutY="28.0" prefHeight="3.0" prefWidth="102.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="panelAsesor" layoutY="113.0" prefHeight="392.0" prefWidth="351.0" style="-fx-background-color: #7cb342;" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="113.0">
+         <children>
+            <JFXTextField fx:id="campoNombre" layoutX="99.0" layoutY="100.0" promptText="Digite su nombre" />
+            <JFXTextField fx:id="campoApellido" layoutX="381.0" layoutY="100.0" promptText="Digite su apellido" />
+            <JFXTextField fx:id="campoIdentificacion" layoutX="167.0" layoutY="183.0" promptText="Sólo numeros" />
+            <Label layoutX="106.0" layoutY="72.0" text="Nombre:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="381.0" layoutY="72.0" text="Apellido:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="65.0" layoutY="186.0" text="Identificacion:" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Separator layoutX="65.0" layoutY="266.0" prefHeight="3.0" prefWidth="135.0" />
+            <JFXRadioButton fx:id="botonRadialAsesor" layoutX="168.0" layoutY="322.0" onAction="#setAsesor" text="Asesor" textFill="WHITE" />
+            <JFXRadioButton fx:id="botonRadialCliente" layoutX="349.0" layoutY="322.0" onAction="#setCliente" text="Cliente" textFill="WHITE" />
+            <JFXComboBox fx:id="SeleccionTipoDocumento" layoutX="372.0" layoutY="183.0" prefHeight="25.0" prefWidth="173.0" promptText="Tipo documento" style="-fx-background-color: #ffffff;" />
+            <Label layoutX="264.0" layoutY="260.0" text="CATEGORÍA" textFill="WHITE" />
+            <Label layoutX="244.0" layoutY="16.0" text="DATOS GENERALES" textFill="WHITE" />
+            <Separator layoutX="65.0" layoutY="23.0" prefHeight="3.0" prefWidth="135.0" />
+            <Separator layoutX="391.0" layoutY="23.0" prefHeight="3.0" prefWidth="135.0" />
+            <Separator layoutX="391.0" layoutY="264.0" prefHeight="3.0" prefWidth="135.0" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="flechaAsesor" fitHeight="36.0" fitWidth="32.0" layoutX="78.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/flecha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flechaUbicacion" fitHeight="36.0" fitWidth="32.0" layoutX="188.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/flecha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flechaEducacion" fitHeight="36.0" fitWidth="32.0" layoutX="298.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/flecha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flechaGuardados" fitHeight="36.0" fitWidth="32.0" layoutX="399.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@images/flecha.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
